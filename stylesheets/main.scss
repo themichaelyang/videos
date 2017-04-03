@@ -1,3 +1,5 @@
+$columns: 3;
+
 body {
   margin: 0 auto;
   display: flex;
@@ -9,7 +11,7 @@ body {
 
 video {
   display: block;
-  width: 25%;
-  margin: (33% - 25%) / 2;
+  width: 30%;
+  margin: ((100% / $columns) - 30%) / 2;
   float: left;
 }
